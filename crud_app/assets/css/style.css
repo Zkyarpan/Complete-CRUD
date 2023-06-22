@@ -1,0 +1,313 @@
+@font-face {
+  font-family: myFontt;
+  src: url(../Fonts/Alesand\ Bold.otf);
+}
+@font-face {
+  font-family: Another;
+  src: url(../Fonts/Berka-Light.ttf);
+}
+
+.nav-brand-text-dark {
+  font-family: myFontt;
+}
+* {
+  font-family: Another;
+}
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #ff6b81, #845ec2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-shadow {
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.border-shadow:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Header */
+#header {
+  background-color: #503e6b;
+  letter-spacing: 3px;
+}
+
+.nav-brand-text-dark {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+/* Main Site */
+#site-main {
+  margin-top: -10px;
+}
+.no-underline {
+  text-decoration: none;
+}
+
+.box-nav {
+  margin-top: 10px;
+  /* margin-bottom: 20px; */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background-color: #503e6b;
+  color: white;
+}
+
+.title th {
+  padding: 10px;
+  text-align: left;
+}
+
+tbody td {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.update:hover {
+  background-color: #503e6b;
+  color: #fff;
+}
+
+.delete:hover {
+  background-color: #205179;
+  color: #fff;
+}
+
+/* Responsive styles */
+
+@media (max-width: 576px) {
+  .container {
+    padding: 5px;
+  }
+
+  .nav-brand-text-dark {
+    font-size: 18px;
+  }
+
+  .title th,
+  tbody td {
+    padding: 3px;
+    font-size: 14px;
+  }
+}
+
+/* add user & update   */
+/* Form container */
+.new_user {
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Form group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="radio"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="radio"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Radio button styling */
+.radio.inline {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.radio-label {
+  margin-left: 5px;
+}
+
+/* Submit button styling */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #c6bcd4;
+}
+
+/* Text color */
+.text-light {
+  color: black;
+}
+
+.text-dark {
+  color: #000;
+}
+
+/* For radio buttons  */
+.radio-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radio-label {
+  margin-left: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.radio-input[type="radio"] {
+  display: none;
+}
+
+.radio-input[type="radio"] + .radio-label:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #866ee7;
+  margin-right: 8px;
+}
+
+.radio-input[type="radio"]:checked + .radio-label:before {
+  background-color: #866ee7;
+}
+
+/* For status radio */
+.radio-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radio-group {
+  margin-right: 20px;
+}
+.radio-label {
+  margin-left: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.radio-input[type="radio"] {
+  display: none;
+}
+
+.radio-input[type="radio"] + .radio-label:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #866ee7;
+  margin-right: 8px;
+}
+
+.radio-input[type="radio"]:checked + .radio-label:before {
+  background-color: #866ee7;
+}
+
+#update_user .form-group {
+  margin: 0.1em 0;
+}
+#update_user .form-group .radio-inline {
+  margin: 0.2em 2em;
+}
+
+#update_user .form-group input[type="text"] {
+  width: 100%;
+  padding: 0.6em 1em;
+  margin: 0.5em 0em;
+  border: 1px solid black;
+  font-size: 1em;
+  border-radius: 0.2em;
+}
+
+/* For button */
+#update_user .form-group .btn,
+#add_user .form-group .btn {
+  width: 100%;
+  padding: 0.7em 1em;
+  background-color: #503e6b;
+  border: none;
+  color: white;
+  font-size: large;
+  border-radius: 0.5em;
+  margin-top: -0.2em;
+}
+#update_user .form-group .btn:hover,
+#add_user .form-group .btn:hover {
+  background-color: #3d405b;
+}
