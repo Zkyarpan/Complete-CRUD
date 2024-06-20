@@ -12,12 +12,6 @@ MongoDB
 ejs/CSS
 JavaScript
 
-
-Tutorial Source:
-_______________
-The tutorial that inspired this project can be found on YouTube at [https://youtu.be/W1Kttu53qTg]. It provides step-by-step guidance on building a CRUD application using the mentioned technologies.
-
-
 Project Overview
 ________________
 The main objective of this CRUD application is to manage user data. The application allows users to perform the following operations:
