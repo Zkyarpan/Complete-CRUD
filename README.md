@@ -1,8 +1,3 @@
-CRUD Application - Tutorial Project:
-___________________________________
-
-This CRUD application is developed as part of a learning experience from a YouTube tutorial. It serves as a hands-on project to understand and practice the fundamental concepts of creating, reading, updating, and deleting data in a web application.
-
 Technologies and Tools Used:
 ____________________________
 Node.js
