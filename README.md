@@ -20,7 +20,7 @@ This Node.js and Express.js application provides CRUD (Create, Read, Update, Del
 1. **Clone the repository**:
    ```
    git clone <repository-url>
-   cd user-management-app
+   cd crud_app
    ```
 
 2. **Install dependencies**:
