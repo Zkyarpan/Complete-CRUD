@@ -16,10 +16,3 @@ Read and display existing user
 Update user information
 Delete user 
 
-Contribution
-________________
-Contributions to this project are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to submit a pull request.
-
-Acknowledgements
-________________
-I would like to express my gratitude to the tutorial creator and all the contributors who have helped in the development of this project. Their guidance and support have been invaluable in the learning process.
